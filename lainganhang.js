@@ -1,0 +1,12 @@
+let inputMoney;
+let inputInterest;
+let inputYear;
+inputMoney = prompt('Input Money');
+inputInterest = prompt('Input Interest');
+inputYear = prompt('Input Year');
+let m = parseFloat(inputMoney);
+let i = parseFloat(inputInterest);
+let y = parseFloat(inputYear);
+let y1 = m * i;
+let mi = m + y * y1;
+document.write("The money you will get: " + mi);
